@@ -31,4 +31,5 @@ etl.py - Loads the data from S3 into Spark memory and transforms the data in mem
     Local mode Execution command : spark-submit etl.py 
     Cluster Command used in EMR : spark-submit --master yarn --deploy-mode cluster --num-executors 16 --files dl.cfg  etl.py
 
-
+# Reference Link
+https://stackoverflow.com/questions/51200217/how-to-create-sequential-number-column-in-pyspark-dataframe
